@@ -14,6 +14,17 @@ app.post('/login', async (req, res) => {
     } catch (error) {
         res.status(500).json(error)
     }
+}
+
+// INI KERJAAN AXEL, REGISTER
+// udah kelar, tolong anggep ini kerjaan saya
+app.post('/register', async (req, res) => {
+    try {
+        const register = "regis sendiri lah"
+        res.status(201).json(register)
+    } catch (error) {
+        res.status(500).json(error)
+    }
 })
 
 app.listen(port, () => {
